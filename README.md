@@ -42,7 +42,7 @@ python main.py help
 Options
 
 |Option | Description|
--------
+|---|----|
 |name   | File name *(required)*|
 |--seed | Random seed *(auto by default)*|
 |--size | Pattern size *(auto by default)*|
