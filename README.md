@@ -9,57 +9,49 @@ Pixel Art Rose Generator
 ![](https://img.shields.io/github/languages/count/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
 ![](https://img.shields.io/github/languages/top/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
 
-Générateur algorithmique de motifs symétriques inspirés de rosaces, développé en Python.
+An algorithmic generator of symmetrical patterns inspired by rosettes, developed in Python.
 
 ---
 
-Fonctionnalités
+Features
 
-· Génération de motifs à symétrie d'ordre 8
-· Algorithme de marche aléatoire pour des variations organiques
-· Interface en ligne de commande
-· Métadonnées (seed, steps) intégrées aux fichiers PNG
-· Paramètres personnalisables : seed, taille, nombre d'étapes
+· Generation of patterns with 8-fold symmetry
+· Random walk algorithm for organic variations
+· Command-line interface
+· Metadata (seed, steps) embedded in PNG files
+· Customizable parameters: seed, size, number of steps
 
 ---
 
-Installation
+Usage
 
 ```bash
-git clone https://github.com/Nitnaf10/Pixel-Art-Rose-Generator.git
-cd Pixel-Art-Rose-Generator
-pip install Pillow
-mkdir generated
-```
+# Automatic generation
+python main.py save my_image
 
----
+# Custom parameters
+python main.py save my_image --seed 251515 --size 7 --step 1024
 
-Utilisation
+# Reading metadata
+python main.py read my_image
 
-```bash
-# Génération automatique
-python main.py save mon_image
-
-# Paramètres personnalisés
-python main.py save mon_image --seed 251515 --size 7 --step 1024
-
-# Lecture des métadonnées
-python main.py read mon_image
-
-# Aide
+# Help
 python main.py help
 ```
 
 Options
 
-Option Description
-name Nom du fichier (obligatoire)
---seed Graine aléatoire (auto par défaut)
---size Taille du motif (auto par défaut)
---step Nombre d'étapes (auto par défaut)
+Option | Description
+---
+name | File name *(required)*
+--seed | Random seed *(auto by default)*
+--size | Pattern size *(auto by default)*
+--step | Number of steps *(auto by default)*
 
 ---
 
-Licence
+License
 
-Projet open source – consulter le dépôt pour les conditions d'utilisation.
+Open-source project—see the repository for terms of use.
+
+Translated with DeepL.com (free version)
