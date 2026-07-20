@@ -41,12 +41,12 @@ python main.py help
 
 Options
 
-Option | Description
----
-name | File name *(required)*
---seed | Random seed *(auto by default)*
---size | Pattern size *(auto by default)*
---step | Number of steps *(auto by default)*
+|Option | Description|
+-------
+|name   | File name *(required)*|
+|--seed | Random seed *(auto by default)*|
+|--size | Pattern size *(auto by default)*|
+|--step | Number of steps *(auto by default)*|
 
 ---
 
