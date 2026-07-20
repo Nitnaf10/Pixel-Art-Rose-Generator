@@ -1,4 +1,6 @@
 import random
+import sys
+import argparse
 from PIL import Image, PngImagePlugin
 
 class CustomImage:
@@ -92,47 +94,45 @@ def read_comment(filename):
     except Exception as e:
         return f"Error reading metadata: {e}"
 
-def parse(command,values):
-    command=" ".join(command.split(" ")[1:])
-    for k,v in enumerate(command.split(", ")):
-        if "=" in v:
-            values[v.split("=")[0]]=v.split("=")[1]
-        else:
-            values[list(values.keys())[k]]=v
-    return values
+def main():
+    parser = argparse.ArgumentParser(description='Generate symmetric maze images')
+    subparsers = parser.add_subparsers(dest='command', required=True, help='Commands')
+    
+    # Save command
+    save_parser = subparsers.add_parser('save', help='Save a generated image')
+    save_parser.add_argument('name', help='Name of the image file')
+    save_parser.add_argument('--seed', type=int, help='Random seed')
+    save_parser.add_argument('--size', type=int, help='Size parameter (creates 2*size+1 image)')
+    save_parser.add_argument('--step', type=int, help='Number of steps')
+    
+    # Read command
+    read_parser = subparsers.add_parser('read', help='Read metadata from an image')
+    read_parser.add_argument('name', help='Name of the image file')
+    
+    # Help command
+    help_parser = subparsers.add_parser('help', help='Show help message')
+    
+    args = parser.parse_args()
+    
+    if args.command == 'save':
+        if args.seed is None:
+            args.seed = random.getrandbits(32)
+        if args.size is None:
+            args.size = random.randint(10, 110)
+        if args.step is None:
+            args.step = random.randint(args.size, args.size**2)
+        
+        print(f"Generating with seed={args.seed}, size={args.size}, step={args.step}")
+        image = CustomImage(args.size)
+        image.bot1(args.step, args.seed)
+        image.save(args.name, args.seed, args.step)
+        print(f"Image saved as generated/{args.name}.png")
+        
+    elif args.command == 'read':
+        print(read_comment(f"generated/{args.name}.png"))
+        
+    elif args.command == 'help':
+        parser.print_help()
 
-while True:
-    command=input(">>> ")
-    if command=="help":
-        print("help")
-        print("save name, seed=auto, size=auto, step=auto")
-        print("read name")
-        print("exit")
-    elif command=="":
-        continue
-    elif command.startswith("save"):
-        values=parse(command,values={"name":None,"seed":"auto","size":"auto","step":"auto"})
-        if values["name"] is None:
-            print("name is required")
-        else:
-            if values["seed"]=="auto":
-                values["seed"]=random.getrandbits(32)
-            if values["size"]=="auto":
-                values["size"]=random.randint(10,110)
-            if values["step"]=="auto":
-                values["step"]=random.randint(int(values["size"]),int(values["size"])**2)
-            image=CustomImage(int(values["size"]))
-            image.bot1(int(values["step"]),int(values["seed"]))
-            image.save(values["name"],int(values["seed"]),int(values["step"]))
-    elif command.startswith("read"):
-        values=parse(command,values={"name":None})
-        if values["name"] is None:
-            print("name is required")
-        else:
-            print(read_comment(f"generated/{values['name']}.png"))
-    elif command=="exit":
-        break
-    else:
-        print(f"unknown command: {command}")
-
-
+if __name__ == "__main__":
+    main()
