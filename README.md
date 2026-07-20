@@ -1,6 +1,6 @@
 Pixel Art Rose Generator
 
-https://img.shields.io/github/stars/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
+![](https://img.shields.io/github/stars/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
 https://img.shields.io/github/forks/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
 https://img.shields.io/github/watchers/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
 https://img.shields.io/github/contributors/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
@@ -57,17 +57,6 @@ name Nom du fichier (obligatoire)
 --seed Graine aléatoire (auto par défaut)
 --size Taille du motif (auto par défaut)
 --step Nombre d'étapes (auto par défaut)
-
----
-
-Structure du projet
-
-```
-Pixel-Art-Rose-Generator/
-├── main.py          # Script principal
-├── generated/       # Images produites
-└── README.md        # Documentation
-```
 
 ---
 
