@@ -1,11 +1,11 @@
 Pixel Art Rose Generator
 
 ![](https://img.shields.io/github/stars/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
-https://img.shields.io/github/forks/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
-https://img.shields.io/github/watchers/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
-https://img.shields.io/github/contributors/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
-https://img.shields.io/github/commit-activity/m/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
-https://img.shields.io/github/last-commit/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
+![](https://img.shields.io/github/forks/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
+![](https://img.shields.io/github/watchers/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
+![](https://img.shields.io/github/contributors/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
+![](https://img.shields.io/github/commit-activity/m/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
+![](https://img.shields.io/github/last-commit/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square)
 https://img.shields.io/github/languages/count/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
 https://img.shields.io/github/languages/top/Nitnaf10/Pixel-Art-Rose-Generator?style=flat-square
 
