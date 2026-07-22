@@ -87,5 +87,3 @@ python main.py help
 ## License
 
 Open-source project—see the repository for terms of use.
-
-Translated with DeepL.com (free version)
