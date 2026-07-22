@@ -14,29 +14,36 @@ An algorithmic generator of symmetrical patterns inspired by rosettes, developed
 ---
 
 ## Example
-<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr; grid-gap: 10px; margin: 20px;">
-  <!--01-20-->
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/01.png?raw=true" alt="rosette_1" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/02.png?raw=true" alt="rosette_2" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/03.png?raw=true" alt="rosette_3" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/04.png?raw=true" alt="rosette_4" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/05.png?raw=true" alt="rosette_5" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/06.png?raw=true" alt="rosette_6" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/07.png?raw=true" alt="rosette_7" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/08.png?raw=true" alt="rosette_8" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/09.png?raw=true" alt="rosette_9" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/10.png?raw=true" alt="rosette_10" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/11.png?raw=true" alt="rosette_11" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/12.png?raw=true" alt="rosette_12" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/13.png?raw=true" alt="rosette_13" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/14.png?raw=true" alt="rosette_14" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/15.png?raw=true" alt="rosette_15" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/16.png?raw=true" alt="rosette_16" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/17.png?raw=true" alt="rosette_17" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/17.png?raw=true" alt="rosette_18" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/19.png?raw=true" alt="rosette_19" style="width: 100%;">
-  <img src="https://github.com/Nitnaf10/Pixel-Art-Rose-Generator/blob/main/generated/20.png?raw=true" alt="rosette_20" style="width: 100%;">
-</div>
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/01.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/02.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/03.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/04.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/05.png" width="180" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/06.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/07.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/08.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/09.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/10.png" width="180" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/11.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/12.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/13.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/14.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/15.png" width="180" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/16.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/17.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/18.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/19.png" width="180" /></td>
+    <td><img src="https://raw.githubusercontent.com/Nitnaf10/Pixel-Art-Rose-Generator/main/generated/20.png" width="180" /></td>
+  </tr>
+</table>
 
 ---
 
